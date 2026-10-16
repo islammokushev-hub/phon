@@ -176,6 +176,10 @@ main .container1 {
     gap: 20px;
     border: 1px solid #EEF5F6;
     border-radius: 18px;
+    transition: 500ms;
+}
+.container2 .card:hover {
+    background-color:#DDF3E3 ;
 }
 .container2 .card h3 {
     font-size: 22px;
@@ -452,5 +456,4 @@ footer {
     .footer_column h5, li:nth-child(3) {
         display: none;
     }
-
 }
